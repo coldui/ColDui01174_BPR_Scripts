@@ -1,6 +1,6 @@
 # IoT Device Identification and Anomaly Detection (DIAD)
 
-This repository contains the machine learning code accompanying the bachelor's thesis *Behavioural Analysis of IoT Network Traffic for Device Identification and Anomaly Detection* (Colin Duignan, Noroff University College, 2026). The work develops a Device Identification and Anomaly Detection (DIAD) pipeline for IoT network traffic, using Random Forest classifiers across five progressive models.
+This repository contains the machine learning code and workflow artifact accompanying the bachelor's thesis *Behavioural Analysis of IoT Network Traffic for Device Identification and Anomaly Detection* (Colin Duignan, Noroff University College, 2026). The work develops a Device Identification and Anomaly Detection (DIAD) pipeline for IoT network traffic, using Random Forest classifiers across five progressive models.
 
 ## Pipeline
 
