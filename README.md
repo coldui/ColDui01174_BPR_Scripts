@@ -6,7 +6,7 @@ This repository contains the machine learning code accompanying the bachelor's t
 
 The DIAD framework is a two-stage hybrid pipeline combining packet-level device identification with flow-level anomaly detection. Static identifiers are stripped during preprocessing so classification relies on communication behaviour alone.
 
-coldui01174_BPR_Artifact.png
+Artifact Image in Repo Files: coldui01174_BPR_Artifact.png
 
 ## Models
 
