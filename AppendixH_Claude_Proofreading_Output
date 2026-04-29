@@ -1,0 +1,181 @@
+# AI Formatting Review Output
+
+Review conducted: 28 April 2026 
+
+The list below was returned by Claude (Anthropic) in response to a formatting consistency review of the thesis manuscript. The output is reproduced as-is. Each item was reviewed by the author and applied selectively.
+
+---
+
+## Section 1.2.2
+
+**Original:** "Mirai BotNet"
+**Correction:** "Mirai botnet"
+**Reason:** Section 1.2.2 uses "BotNet" (camel case); elsewhere the paper uses "botnet" (lowercase, one word). Internal capitalisation inconsistency.
+
+---
+
+## Section 1.2.3
+
+**Original:** Bullet/list item terminal punctuation in Section 1.2.3 attack list
+**Correction:** Use consistent terminal punctuation
+**Reason:** Some bulleted entries end with periods, others do not, within the same list block.
+
+---
+
+## Section 1.2.5
+
+**Original:** "BoT-IoT (Koroniotis et al., 2019)"
+**Correction:** "Bot-IoT (Koroniotis et al., 2019)"
+**Reason:** The reference list entry uses "Bot-IoT dataset" — internal capitalisation inconsistency.
+
+---
+
+## Section 2.2
+
+**Original:** Footnote reference style — "https://www.snort.org(Snort Project, n.d.)"
+**Correction:** Add space between URL and citation
+**Reason:** Missing space between URL and citation. Footnote 2 in Section 3.6.1 has clean separation.
+
+---
+
+## Section 2.3
+
+**Original:** "(see Chapter 3.3)"
+**Correction:** "(see Section 3.3)"
+**Reason:** "Chapter" plus a sub-numbered section is inconsistent with other cross-references in the paper that use "Section X.X".
+
+---
+
+## Section 2.4
+
+**Original:** "CICIoT2023" / "CICIot2023"
+**Correction:** Use one form consistently
+**Reason:** Section 2.4 uses "CICIoT2023" (Table 2.4 reference) but the surrounding text uses "CICIot2023" (lowercase 't'). Inconsistent capitalisation.
+
+---
+
+**Original:** Bullet/list item terminal punctuation in Section 2.4 attack list
+**Correction:** Use consistent terminal punctuation
+**Reason:** Some bulleted entries end with periods, others do not, within the same list block.
+
+---
+
+## Section 2.5 (and throughout)
+
+**Original:** "Random Forest" / "RF"
+**Correction:** Define abbreviation on first use, then use consistently
+**Reason:** "RF" is introduced in Section 2.5 ("Random Forest (RF)") but the full term continues to be used interchangeably throughout.
+
+---
+
+## Section 3.6
+
+**Original:** "Reproductibility note:"
+**Correction:** "Reproducibility note:"
+**Reason:** Spelling — flagged here as a heading-style consistency issue if treating bolded inline labels as a recurring format element.
+
+---
+
+**Original:** "(80/20 Train/Test)" / "80/20 stratified train-test split" / "80/20 train/test split"
+**Correction:** Use one form consistently
+**Reason:** Multiple capitalisation and punctuation variants for the same train/test split description across Sections 3.6, 4.2, and table captions.
+
+---
+
+## Section 3.6.3 / Throughout
+
+**Original:** "stream, channel and jitter" / "Stream, Channel and Jitter" / "stream, channel, and jitter"
+**Correction:** Use one form consistently (capitalisation and Oxford comma)
+**Reason:** Variants appear across Sections 2.3.2, 3.6.3, 4.4, 4.5.2, and 5.2.
+
+---
+
+**Original:** "1, 5, 10, 30, and 60 seconds" / "1, 5, 10, 30 and 60 seconds" / "5, 10, 30, or 60 seconds"
+**Correction:** Use one form consistently (Oxford comma)
+**Reason:** Oxford comma used inconsistently across Sections 2.3.2, 3.6.3, and 4.4.1.
+
+---
+
+## Section 4.3.1
+
+**Original:** "( What type of device is this? )"
+**Correction:** Remove space after "(" and before ")"
+**Reason:** Spacing inside parentheses is inconsistent — DI Model 2 uses "(How accurately individual devices..." with no leading space.
+
+---
+
+**Original:** Italicised question lines after subsection headings
+**Correction:** Apply italics consistently
+**Reason:** DI Model 1 question is in plain parentheses; DI Model 2 and DI Model 3 questions appear in italics. Inconsistent treatment of the same structural element.
+
+---
+
+**Original:** "overall classification accuracy of (99.7%)"
+**Correction:** Match surrounding format
+**Reason:** Parentheses around a value used as a noun phrase is inconsistent with later phrasing like "macro F1 (98.76%)".
+
+---
+
+## Section 4.4.1 / Section 4.4.2 / Table 4.6
+
+**Original:** "1-second window" / "1 second window" / "1s"
+**Correction:** Use one form consistently
+**Reason:** Multiple variants used across Sections 4.4.1, 4.4.2, and Table 4.6. Hyphenation inconsistent.
+
+---
+
+**Original:** "30-second window" / "60-second window" vs "30 second window" / "60 second window"
+**Correction:** Apply hyphen consistently
+**Reason:** Sometimes hyphenated as adjective, sometimes not. Both forms appear.
+
+---
+
+## Section 4.4.1 / Appendix D
+
+**Original:** "Recon OS Scan" / "OSScan"
+**Correction:** Use one form consistently
+**Reason:** Section 4.4.1 and Table 4.5 use "Recon OS Scan", but Appendix D table uses "OSScan" (no spaces, no "Recon" prefix).
+
+---
+
+## Section 4.4.2
+
+**Original:** "DDos TCP"
+**Correction:** "DDoS TCP"
+**Reason:** Section 4.4.2 narrative reads "DDos TCP showing the strongest performance" — elsewhere in the paper the term is "DDoS TCP" (capital S).
+
+---
+
+## Throughout
+
+**Original:** "F1-score" / "F1 score" / "F1-Score" / "F1score"
+**Correction:** Use one form consistently
+**Reason:** Multiple capitalisation/hyphenation variants across tables and text.
+
+---
+
+**Original:** "CIC IoT-DIAD 2024" / "CICIoT-DIAD 2024" / "CICIoT-DIAD2024"
+**Correction:** Use one form consistently throughout
+**Reason:** Three variants of the same dataset name used across the paper, including in Appendix A heading and Table A.1 caption.
+
+---
+
+**Original:** Table column header "Macro F1" vs "Macro Avg F1" vs "Macro-average F1-score"
+**Correction:** Use one form consistently across tables
+**Reason:** Different table captions and column headers use different forms for the same metric.
+
+---
+
+## Figure 2.1
+
+**Original:** Figure caption uses lowercase ("anomaly detection"), figure label uses title case ("Anomaly Detection")
+**Correction:** Match capitalisation between caption and figure label
+**Reason:** Internal figure label inconsistency.
+
+---
+
+## References
+
+**Original:** "Snort Project. (n.d.)."
+**Correction:** Confirm date convention
+**Reason:** All other references in the bibliography have explicit years. "(n.d.)" is acceptable but inconsistent with the convention used elsewhere.
